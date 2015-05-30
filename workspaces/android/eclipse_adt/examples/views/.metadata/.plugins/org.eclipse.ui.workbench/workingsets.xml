@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1432747942643_2" label="EXAMPLES_APPS" name="EXAMPLES_APPS">
+<item elementID="=UILinearLayout" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UISampler" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UIToggleButton" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UIButton" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UIListView" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UIDatePickerFragment" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/UIGoogleMaps" type="4"/>
+<item elementID="=UIViewPager" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UICheckBox" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UITimePicker" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UIGallery" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UIRelativeLayout" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UISpinner" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UIAlertDialog" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UIWebView" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UIRatingsBar" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UIAutoComplete" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UIGridLayout" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UIDatePicker" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UITabLayout" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UITableLayout" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UIRadioGroup" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+<item elementID="=UITimePickerFragment" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1432747776765_1" label="Window Working Set" name="Aggregate for window 1432416537044"/>
+<mruList name="EXAMPLES_APPS"/>
+</workingSetManager>

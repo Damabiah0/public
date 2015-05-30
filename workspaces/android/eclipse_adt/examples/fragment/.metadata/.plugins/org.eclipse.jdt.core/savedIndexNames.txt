@@ -1,0 +1,17 @@
+INDEX VERSION 1.127+/home/damabiah/workspaces/coursera/android/fragment/.metadata/.plugins/org.eclipse.jdt.core
+3849992550.index
+2948677398.index
+2322547059.index
+1559376416.index
+4053510674.index
+3988760314.index
+923761653.index
+1651661941.index
+3582475776.index
+3763171831.index
+345001012.index
+763177843.index
+2459391345.index
+1766157449.index
+3723922851.index
+2038001634.index

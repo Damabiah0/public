@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/robotium"/>
+	<classpathentry exported="true" kind="lib" path="/home/damabiah/dev/tools/lunax64/plugins/cn.ieclipse.aorm.eclipse_3.5.0.0/libs/aorm_1.0_20141104.jar" sourcepath="/home/damabiah/dev/tools/lunax64/plugins/cn.ieclipse.aorm.eclipse_3.5.0.0/libs/aorm.source_1.0_20141104.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>
