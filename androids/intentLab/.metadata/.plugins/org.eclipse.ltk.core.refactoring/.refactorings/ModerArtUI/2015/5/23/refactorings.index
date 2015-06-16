@@ -1,0 +1,7 @@
+1433031173123	Delete element
+1433082913597	Change Layout
+1433103090387	Extract method 'initialize'
+1433104093340	Extract method 'setNewColor'
+1433105262552	Rename local variable 'buttonColor'
+1433107947906	Delete elements
+1433114789374	Extract method 'createAlertForRedirect'

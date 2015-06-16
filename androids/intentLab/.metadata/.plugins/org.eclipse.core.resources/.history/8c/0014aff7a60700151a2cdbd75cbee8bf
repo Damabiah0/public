@@ -1,0 +1,87 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" android:stretchColumns="1"
+    tools:context="org.coursera.moderartui.MasterActivity"> 
+
+    <TableRow android:layout_height="fill_parent" android:layout_width="fill_parent" android:layout_height="fill_parent"> 
+
+        <LinearLayout
+            android:id="@+id/1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_margin="1dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText01"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:backgroundTintMode="screen"
+                android:ems="10"
+                android:inputType="textMultiLine" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText02"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:backgroundTintMode="screen"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout12"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+          
+            android:layout_gravity="right"
+            android:layout_margin="1dp"
+          
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editText11"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:backgroundTint="@android:color/holo_blue_light"
+                android:backgroundTintMode="screen"
+                android:ems="10"
+                android:inputType="textMultiLine" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/editText12"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:backgroundTintMode="screen"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+            <EditText
+                android:id="@+id/editText13"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="2"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:backgroundTintMode="screen"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+        </LinearLayout>
+    </TableRow>
+
+</TableLayout>
