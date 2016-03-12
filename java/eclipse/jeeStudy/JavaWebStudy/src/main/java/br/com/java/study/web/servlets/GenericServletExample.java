@@ -24,6 +24,9 @@ public class GenericServletExample extends GenericServlet implements Servlet {
 	 * @see Servlet#service(ServletRequest request, ServletResponse response)
 	 */
 	public void service(ServletRequest request, ServletResponse response) throws ServletException, IOException {
+		log("service method.");
+		getServletContext().log("log from service method using servletcontext");
+//		this.getServletContext().log(new Exception(), "Unknown User");
 	}
 
 }

@@ -1,4 +1,4 @@
-package br.com.java.study.web.liteners;
+package br.com.java.study.web.listener;
 
 import javax.servlet.ServletContextAttributeEvent;
 import javax.servlet.ServletContextAttributeListener;

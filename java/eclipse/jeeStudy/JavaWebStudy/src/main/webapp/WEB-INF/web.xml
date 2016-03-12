@@ -4,12 +4,17 @@
 
 <web-app>
   <display-name>Java Study Web</display-name>
-  <listener>
-  	<listener-class>br.com.java.study.web.liteners.ServletContextListenerExample</listener-class>
-  </listener>
-  <listener>
-  	<listener-class>br.com.java.study.web.liteners.ServletContextAttributeListenerExample</listener-class>
-  </listener>
+  <filter>
+  	<filter-name>Test1Filter</filter-name>
+  	<display-name>Test1Filter</display-name>
+  	<description></description>
+  	<filter-class>br.com.java.study.web.filters.Test1Filter</filter-class>
+  </filter>
+  <filter-mapping>
+  	<filter-name>Test1Filter</filter-name>
+	<servlet-name>GenericServletExample</servlet-name>  
+	
+  </filter-mapping>
   <servlet>
   	<servlet-name>GenericServletExample</servlet-name>
   	<display-name>GenericServletExample</display-name>
@@ -21,6 +26,13 @@
   	<display-name>HttpServletExample</display-name>
   	<description></description>
   	<servlet-class>br.com.java.study.web.servlets.HttpServletExample</servlet-class>
+  	
+  </servlet>
+  <servlet>
+  	<servlet-name>DynamicServletRegistrator</servlet-name>
+  	<display-name>DynamicServletRegistrator</display-name>
+  	<description>RegistratorForDynamicThings</description>
+  	<servlet-class>br.com.java.study.web.dynamic.filter.DynamicServletRegistrator</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>GenericServletExample</servlet-name>
@@ -30,5 +42,51 @@
   	<servlet-name>HttpServletExample</servlet-name>
   	<url-pattern>/HttpServletExample</url-pattern>
   </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DynamicServletRegistrator</servlet-name>
+  	<url-pattern>/DynamicServletRegistrator</url-pattern>
+  </servlet-mapping>
+  <mime-mapping>
+  	<extension>png</extension>
+  	<mime-type>image/png</mime-type>
+  </mime-mapping>
   
+  
+  <!-- Its a popup dialog that appears in the browser when the user wants to access a resource that is under the realm, but the text is sent unencrypted -->
+  <!-- 	<login-config>
+		<auth-method>BASIC</auth-method>
+		<realm-name>BASIC realm</realm-name>
+	</login-config> -->
+  
+  <!-- like BASIC but the pass is sended like a hash to the server -->
+<!-- 	<login-config> -->
+<!-- 		<auth-method>DIGEST</auth-method> -->
+<!-- 		<realm-name>Digest realm</realm-name> -->
+<!-- 	</login-config> -->
+  
+<!-- You should specifie a the form in the pattern  action="j_security_check" method="post" and inputs j_username and j_password  -->
+<!--   <login-config> -->
+<!--   	<auth-method>FORM</auth-method> -->
+<!--   	<form-login-config> -->
+<!--   		<form-login-page></form-login-page> -->
+<!--   		<form-error-page></form-error-page> -->
+<!--   	</form-login-config> -->
+<!--   	</login-config> -->
+
+<!-- used for ssl with a certificate on the client. The most secure way to do it. -->
+<!-- 	<login-config> -->
+<!-- 		<auth-method>CLIENT-CERT</auth-method> -->
+	
+<!-- 	</login-config> -->
+
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Secure resource collection</web-resource-name>
+			<url-pattern>/super/secure</url-pattern>
+		</web-resource-collection>
+		<user-data-constraint>
+			<transport-guarantee>NONE,INTEGRAL,CONFIDENTIAL</transport-guarantee>
+		</user-data-constraint>
+	</security-constraint>
+
 </web-app>
